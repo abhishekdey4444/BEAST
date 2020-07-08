@@ -1,4 +1,4 @@
-# beast
+# BEAST 
 Discord bot
 
 Prerequisites:-
