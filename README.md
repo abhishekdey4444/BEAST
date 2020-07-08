@@ -1,7 +1,7 @@
 # BEAST 
-##Discord bot
+## Discord bot
 
-###Prerequisites:-
+### Prerequisites:-
 1. Node.js should be installed in the directory of beast.
 "node ." //code to make the bot online (without quotaions)
 
@@ -13,7 +13,7 @@
 
 
 
-###Changes to be done :-
+### Changes to be done :-
 1. const token = 'token ID'; //token ID should be changed to user's generated token ID
 2. The following role MUST be added to server to access the commands:-
   i. ADMIN
@@ -25,7 +25,7 @@
 
 
 
-###Abilities:-
+### Abilities:-
 1. Delete messages
 2. Ban
 3. Kick
@@ -38,7 +38,7 @@
 
 
 
-###Workings:-
+### Workings:-
 1. To delete messages:-
 !delete 10
 
@@ -61,7 +61,7 @@ when joined, automatically greeting is being generated.
 
 
 
-###Access AUTHOURIZATIONS (Commands authorizations)
+### Access AUTHOURIZATIONS (Commands authorizations)
 1. 'ADMIN'     //ROLE OF ADMIN CAN ACCESS THE COMMANDS
 2. 'MODS'      //ROLE OF MODS CAN ACCESS THE COMMANDS
 3. 'BEAST'     //ROLE OF BEAST CAN ACCESS THE COMMANDS
