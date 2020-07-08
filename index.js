@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = 'NzEyOTE2MTE2OTk2ODgyNDgz.XuCq1w.mpbgqLkRc5KGhAD51m3tK-mTUb8';
+const token = 'token ID';
 const PREFIX = '!';
 const version = '1.0.1';
 bot.on('ready', () => {
@@ -129,38 +129,3 @@ bot.on('guildMemberAdd', member => {
 
 bot.login(token);
 
-/*------------------------------------------------------------BAKWASS -----------------------------------------------------------------------*/
-/*bot.on('message', msg=>{
-    let args =msg.content.substring(PREFIX.length).split(" ");
-
-if(args[0]=== 'Madharchod' || args[0] === 'madharchod' )
-{
-    msg.reply('kya be randi.... kaisa hai?');
-}
-else if(msg.content==='ankit'|| msg.content==='Ankit'){
-    msg.reply('ha pata hai.... bahut bada noob hai')
-}
-else if(msg.content==='mrinal'|| msg.content==='Mrinal') {
-    msg.reply('ha pata hai.... bahut bada noob hai')
-}
-
-else if( msg.content==='Mrinal ko janta h' || msg.content==='mrinal ko janta h'){
-    msg.reply('hn jante h, saala din bhar lag lag kr k roote rehta h')
-}
-switch(msg.content){
-case 'madharchod':;
-case 'Madharchod':msg.reply('tera baap ' + msg.content);break;
-case 'randi':;
-case 'Randi':msg.reply('tera baap ' + msg.content);break;
-case 'randi ka bacha':;
-case 'Randi ka bacha':msg.reply('tera baap ' + msg.content);break;
-case 'behenchod':;
-case 'Behenchod':msg.reply('tera baap ' + msg.content);break;
-case 'chachi':;
-case 'Chachi':msg.reply('tera baap ' + msg.content);break;
-case 'bhosidiwala':;
-case 'Bhosidiwala':msg.reply('tera baap ' + msg.content);break;
-case 'bahanchod':;
-case 'Bahanchod':msg.reply('tera baap ' + msg.content);break;
-
-}*/
