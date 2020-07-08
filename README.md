@@ -16,9 +16,9 @@
 ### Changes to be done :-
 1. const token = 'token ID'; //token ID should be changed to user's generated token ID
 2. The following role MUST be added to server to access the commands:-
-  i. ADMIN
-  ii. MODS
-  iii. BEAST
+ #### i. ADMIN
+ #### ii. MODS
+ #### iii. BEAST
 
 
 
